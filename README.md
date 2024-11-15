@@ -1,4 +1,4 @@
-![banner](https://github.com/hexafusion-tech/web/assets/174838184/91581d3a-cadf-4b4e-aac2-283df9a24206)
+![Alt text](images/banner.png)
 
 # HexaFusion Technologies
 
@@ -11,7 +11,7 @@ Our team of seasoned professionals is dedicated to delivering impactful solution
 Experience the future of technology with HexaFusion Technologies. Partner with us to unlock new possibilities and drive your business forward in today’s competitive landscape.
 
 ### Website
-www.hexafusion.tech
+www.hexafusion.co.in
 
 ### Industry
 IT Services and IT Consulting
