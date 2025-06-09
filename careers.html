@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Team - HexaFusion Technologies</title>
+    <link rel="stylesheet" href="careers_styles.css">
+    <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="index.html" class="brand-link">
+                    <i class="fas fa-arrow-left"></i>
+                    <span>HexaFusion</span>
+                </a>
+            </div>
+            <div class="nav-menu">
+                <a href="#jobs" class="nav-link">Open Positions</a>
+                <a href="#culture" class="nav-link">Culture</a>
+                <a href="#benefits" class="nav-link">Benefits</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Build the Future with Us</h1>
+                <p class="hero-subtitle">Join our team of innovators and help shape the next generation of technology solutions</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" id="totalJobs">25</span>
+                        <span class="stat-label">Open Positions</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">5</span>
+                        <span class="stat-label">Departments</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Team Members</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Search for jobs, skills, or departments...">
+                </div>
+                <div class="filters">
+                    <select id="departmentFilter" class="filter-select">
+                        <option value="">All Departments</option>
+                        <option value="engineering">Engineering</option>
+                        <option value="ai-ml">AI & Machine Learning</option>
+                        <option value="cloud">Cloud & DevOps</option>
+                        <option value="data">Data Science</option>
+                        <option value="design">Design</option>
+                        <option value="product">Product</option>
+                        <option value="sales">Sales & Marketing</option>
+                    </select>
+                    <select id="experienceFilter" class="filter-select">
+                        <option value="">All Levels</option>
+                        <option value="intern">Internship</option>
+                        <option value="entry">Entry Level</option>
+                        <option value="mid">Mid Level</option>
+                        <option value="senior">Senior Level</option>
+                    </select>
+                    <select id="locationFilter" class="filter-select">
+                        <option value="">All Locations</option>
+                        <option value="remote">Remote</option>
+                        <option value="bangalore">Bangalore</option>
+                        <option value="hybrid">Hybrid</option>
+                    </select>
+                    <button id="clearFilters" class="clear-btn">Clear All</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="jobs-section" id="jobs">
+        <div class="container">
+            <div class="section-header">
+                <h2>Open Positions</h2>
+                <p class="jobs-count" id="jobsCount">25 positions available</p>
+            </div>
+            <div class="jobs-grid" id="jobsGrid">
+            </div>
+            <div class="no-results" id="noResults" style="display: none;">
+                <i class="fas fa-search-minus"></i>
+                <h3>No positions found</h3>
+                <p>Try adjusting your search criteria or check back later for new opportunities</p>
+            </div>
+            <div class="culture-quote">
+            <blockquote>
+                "At HexaFusion, we believe that great technology is built by great people working in an environment where they can thrive."
+                <cite>— Rajiv Mehta, CEO</cite>
+            </blockquote>
+        </div>
+        </div>
+    </section>
+
+    <section class="culture-section" id="culture">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Culture</h2>
+                <p>What makes HexaFusion a great place to work</p>
+            </div>
+            <div class="culture-grid">
+                <div class="culture-card">
+                    <div class="culture-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Innovation First</h3>
+                    <p>We encourage creative thinking and bold ideas. Our innovation labs give you time to explore new technologies and concepts.</p>
+                </div>
+                <div class="culture-card">
+                    <div class="culture-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Collaborative Teams</h3>
+                    <p>Work alongside talented professionals who are passionate about technology and solving complex problems together.</p>
+                </div>
+                <div class="culture-card">
+                    <div class="culture-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Growth Mindset</h3>
+                    <p>We invest in your professional development with learning budgets, mentorship programs, and clear career paths.</p>
+                </div>
+                <div class="culture-card">
+                    <div class="culture-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3>Work-Life Balance</h3>
+                    <p>Flexible working hours, remote options, and unlimited PTO help you maintain a healthy balance between work and personal life.</p>
+                </div>
+                <div class="culture-card">
+                    <div class="culture-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Global Impact</h3>
+                    <p>Work on projects that reach millions of users worldwide and make a meaningful difference in how people interact with technology.</p>
+                </div>
+                <div class="culture-card">
+                    <div class="culture-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Fast-Paced Environment</h3>
+                    <p>Thrive in a dynamic startup atmosphere where your ideas can quickly become reality and every contribution drives our mission forward.</p>
+                </div>
+            </div>
+    </section>
+
+    <section class="benefits-section" id="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>Benefits & Perks</h2>
+                <p>We take care of our team so they can focus on what matters</p>
+            </div>
+            <div class="benefits-wrapper">
+                <div class="benefits-list">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h3>Comprehensive Healthcare</h3>
+                            <p>Medical, dental, and vision coverage for you and your family with 100% premium coverage.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h3>Competitive Compensation</h3>
+                            <p>Above-market salary packages with equity options and performance bonuses.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-laptop-house"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h3>Flexible Work</h3>
+                            <p>Work from home, office, or hybrid options with flexible hours to suit your lifestyle.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h3>Learning & Development</h3>
+                            <p>Annual learning budget, conference attendance, and certification reimbursements.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-umbrella-beach"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h3>Generous Time Off</h3>
+                            <p>Unlimited PTO policy, paid holidays, and sabbatical opportunities after 3 years.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h3>Wellness Programs</h3>
+                            <p>Gym memberships, mental health support, and wellness activities to keep you at your best.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal-overlay" id="jobModal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 id="modalTitle">Job Title</h2>
+                <button class="modal-close" id="closeModal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-content" id="modalContent">
+            </div>
+        </div>
+    </div>
+
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+    </div>
+
+    <div id="apply-popup" class="apply-popup hidden">
+    <div class="popup-content">
+        <p>You are being redirected to Google Forms to complete your application.</p>
+    </div>
+    </div>
+
+
+    <script src="careers_script.js"></script>
+</body>
+</html>
