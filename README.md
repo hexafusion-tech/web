@@ -1,4 +1,3 @@
-![Alt text](images/banner.png)
 
 # HexaFusion Technologies
 
