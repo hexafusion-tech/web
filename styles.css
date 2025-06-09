@@ -1185,6 +1185,7 @@ transform: translateY(-5px);
 .hero .container {
 flex-direction: column;
 text-align: center;
+margin-top: 50%;
 }
 
 
