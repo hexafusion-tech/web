@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - HexaFusion Technologies</title>
+
+    <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<script>
+function adjustHeaderColor() {
+  const header = document.getElementById('header');
+  const navLinks = header.querySelectorAll('.nav-links a');
+  const title = header.querySelector('h1');
+  const scrollTop = window.scrollY;
+
+  if (scrollTop > 50) {
+    header.style.color = 'inherit';
+    title.style.color = 'inherit';
+    navLinks.forEach(link => link.style.color = 'inherit');
+  } else {
+    header.style.color = 'inherit';
+    title.style.color = 'inherit';
+    navLinks.forEach(link => link.style.color = 'inherit');
+  }
+}
+
+window.addEventListener('scroll', adjustHeaderColor);
+window.addEventListener('load', adjustHeaderColor);
+</script>
+
+
+<body>
+    <header id="header">
+    <div class="container">
+        <div class="logo">
+            <img src="assets/logo.jpg" alt="HexaFusion Logo" class="logo-img" style="cursor: pointer;">
+            <h1 style="cursor: pointer; margin-right: 10px;">HexaFusion Technologies</h1>
+        </div>
+        <nav id="navbar">
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html#home" class="active">Home</a></li>
+                
+                <li class="nav-item-dropdown">
+                    <a href="index.html#about" class="nav-link-dropdown">About</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html#about">About HexaFusion</a></li>
+                        <li><a href="index.html#why-choose-us">Why Choose Us</a></li>
+                        <li><a href="index.html#vision-mission">Vision & Mission</a></li>
+                    </ul>
+                </li>
+                
+                <li class="nav-item-dropdown">
+                    <a href="#services" class="nav-link-dropdown">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#it-solutions">IT Solutions and Services</a></li>
+                        <li><a href="#products-platforms">Products and Platforms</a></li>
+                        <li><a href="#cloud-services">Cloud Services</a></li>
+                        <li><a href="#artificial-intelligence">Artificial Intelligence</a></li>
+                        <li><a href="#it-consultancy">IT Consultancy</a></li>
+                        <li><a href="#business-marketing">Business & Marketing</a></li>
+                    </ul>
+                </li>
+                
+                <li class="nav-item-dropdown">
+                    <a href="#" class="nav-link-dropdown">Explore</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html#events">Events</a></li>
+                        <li><a href="index.html#testimonials">Testimonials</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="index.html#contact">Contact Us</a></li>
+            </ul>
+
+            <ul class="nav-links mobile-only">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#events">Events</a></li>
+            <li><a href="index.html#testimonials">Testimonials</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="index.html#contact">Contact Us</a></li>
+          </ul>
+
+        </nav>
+    </div>
+    </header>
+
+    <section class="services-hero">
+        <div class="container">
+            <h1 class="animate-on-scroll">Our Services</h1>
+            <p class="animate-on-scroll delay-1">Comprehensive technology solutions tailored to your business needs</p>
+        </div>
+    </section>
+
+    <section id="it-solutions" class="service-detail">
+        <div class="container">
+            <div class="service-detail-content">
+                <div class="service-detail-text animate-on-scroll">
+                    <h2><i class="fas fa-laptop-code"></i> IT Solutions and Services</h2>
+                    <p>HexaFusion Technologies delivers comprehensive IT solutions designed to modernize your business infrastructure and drive digital transformation. Our expert team specializes in creating scalable, secure, and efficient IT systems that align with your organizational goals.</p>
+                    
+                    <h3>What We Offer:</h3>
+                    <ul class="service-features">
+                        <li><strong>Custom Software Development:</strong> Tailored applications built with the latest technologies and best practices</li>
+                        <li><strong>System Integration:</strong> Seamless integration of disparate systems to improve operational efficiency</li>
+                        <li><strong>IT Infrastructure Management:</strong> Robust infrastructure setup and maintenance for optimal performance</li>
+                        <li><strong>Legacy System Modernization:</strong> Transform outdated systems into modern, efficient solutions</li>
+                        <li><strong>24/7 Technical Support:</strong> Dedicated support team ensuring minimal downtime</li>
+                    </ul>
+
+                    <h3>Benefits:</h3>
+                    <ul class="service-benefits">
+                        <li>Increased operational efficiency and productivity</li>
+                        <li>Reduced IT costs through optimized infrastructure</li>
+                        <li>Enhanced security and compliance</li>
+                        <li>Scalable solutions that grow with your business</li>
+                    </ul>
+                </div>
+                <div class="service-detail-image animate-on-scroll delay-1">
+                    <img src="assets/its.png" alt="IT Solutions">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products-platforms" class="service-detail alternate">
+        <div class="container">
+            <div class="service-detail-content">
+                <div class="service-detail-image animate-on-scroll">
+                    <img src="assets/prod.png" alt="Products and Platforms">
+                </div>
+                <div class="service-detail-text animate-on-scroll delay-1">
+                    <h2><i class="fas fa-cubes"></i> Products and Platforms</h2>
+                    <p>We develop innovative products and platforms that solve real-world problems and create value for your users. From concept to launch, our team guides you through every stage of product development with a focus on user experience and market fit.</p>
+                    
+                    <h3>What We Offer:</h3>
+                    <ul class="service-features">
+                        <li><strong>Product Strategy & Consulting:</strong> Define your product vision and go-to-market strategy</li>
+                        <li><strong>MVP Development:</strong> Rapid prototyping and MVP creation to validate your ideas</li>
+                        <li><strong>SaaS Platforms:</strong> Build scalable, multi-tenant SaaS applications</li>
+                        <li><strong>Mobile Applications:</strong> Native and cross-platform mobile app development</li>
+                        <li><strong>Product Maintenance & Scaling:</strong> Ongoing support and scaling as your product grows</li>
+                    </ul>
+
+                    <h3>Benefits:</h3>
+                    <ul class="service-benefits">
+                        <li>Faster time-to-market with agile development</li>
+                        <li>User-centric design ensuring high adoption rates</li>
+                        <li>Scalable architecture supporting growth</li>
+                        <li>Continuous improvement based on user feedback</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cloud-services" class="service-detail">
+        <div class="container">
+            <div class="service-detail-content">
+                <div class="service-detail-text animate-on-scroll">
+                    <h2><i class="fas fa-cloud"></i> Cloud Services</h2>
+                    <p>Leverage the power of cloud computing to transform your business operations. Our cloud services enable you to scale infrastructure on-demand, reduce costs, and improve reliability while maintaining security and compliance.</p>
+                    
+                    <h3>What We Offer:</h3>
+                    <ul class="service-features">
+                        <li><strong>Cloud Migration:</strong> Seamless migration of applications and data to cloud platforms</li>
+                        <li><strong>Cloud Architecture Design:</strong> Designing optimal cloud solutions for your specific needs</li>
+                        <li><strong>Multi-Cloud Management:</strong> Manage workloads across multiple cloud providers</li>
+                        <li><strong>Serverless Solutions:</strong> Build scalable applications without managing infrastructure</li>
+                        <li><strong>Cloud Security & Compliance:</strong> Ensure data security and regulatory compliance</li>
+                    </ul>
+
+                    <h3>Benefits:</h3>
+                    <ul class="service-benefits">
+                        <li>Reduced capital expenditure and operational costs</li>
+                        <li>Improved scalability and flexibility</li>
+                        <li>Enhanced disaster recovery and business continuity</li>
+                        <li>Access to latest cloud technologies and services</li>
+                    </ul>
+                </div>
+                <div class="service-detail-image animate-on-scroll delay-1">
+                    <img src="assets/cloud.png" alt="Cloud Services">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="artificial-intelligence" class="service-detail alternate">
+        <div class="container">
+            <div class="service-detail-content">
+                <div class="service-detail-image animate-on-scroll">
+                    <img src="assets/ai.png" alt="Artificial Intelligence">
+                </div>
+                <div class="service-detail-text animate-on-scroll delay-1">
+                    <h2><i class="fas fa-brain"></i> Artificial Intelligence</h2>
+                    <p>Harness the transformative power of AI to unlock new business opportunities and drive innovation. Our AI solutions leverage machine learning, deep learning, and advanced analytics to solve complex business challenges and create competitive advantages.</p>
+                    
+                    <h3>What We Offer:</h3>
+                    <ul class="service-features">
+                        <li><strong>Machine Learning Models:</strong> Custom ML models for predictive analytics and automation</li>
+                        <li><strong>Natural Language Processing:</strong> Build intelligent chatbots and text analysis systems</li>
+                        <li><strong>Computer Vision:</strong> Image recognition and visual analysis solutions</li>
+                        <li><strong>AI Consulting:</strong> Strategic guidance on AI implementation and adoption</li>
+                        <li><strong>AI Model Optimization:</strong> Improve model performance and efficiency</li>
+                    </ul>
+
+                    <h3>Benefits:</h3>
+                    <ul class="service-benefits">
+                        <li>Automated decision-making and process optimization</li>
+                        <li>Enhanced customer insights and personalization</li>
+                        <li>Improved operational efficiency and cost reduction</li>
+                        <li>Competitive advantage through AI-driven innovation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="it-consultancy" class="service-detail">
+        <div class="container">
+            <div class="service-detail-content">
+                <div class="service-detail-text animate-on-scroll">
+                    <h2><i class="fas fa-chalkboard-teacher"></i> IT Consultancy</h2>
+                    <p>Our experienced IT consultants work closely with your organization to develop comprehensive technology strategies that align with your business objectives. We provide expert guidance on technology selection, implementation, and optimization.</p>
+                    
+                    <h3>What We Offer:</h3>
+                    <ul class="service-features">
+                        <li><strong>Technology Strategy:</strong> Develop comprehensive IT strategies aligned with business goals</li>
+                        <li><strong>Digital Transformation:</strong> Guide your organization through digital transformation initiatives</li>
+                        <li><strong>Infrastructure Assessment:</strong> Evaluate current IT infrastructure and recommend improvements</li>
+                        <li><strong>Process Optimization:</strong> Identify and implement process improvements</li>
+                        <li><strong>Technology Roadmapping:</strong> Create detailed technology roadmaps for future growth</li>
+                    </ul>
+
+                    <h3>Benefits:</h3>
+                    <ul class="service-benefits">
+                        <li>Aligned technology investments with business strategy</li>
+                        <li>Reduced risks through expert guidance</li>
+                        <li>Improved ROI on technology investments</li>
+                        <li>Faster adoption of new technologies</li>
+                    </ul>
+                </div>
+                <div class="service-detail-image animate-on-scroll delay-1">
+                    <img src="assets/cons.png" alt="IT Consultancy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="business-marketing" class="service-detail alternate">
+        <div class="container">
+            <div class="service-detail-content">
+                <div class="service-detail-image animate-on-scroll">
+                    <img src="assets/biz.png" alt="Business & Marketing">
+                </div>
+                <div class="service-detail-text animate-on-scroll delay-1">
+                    <h2><i class="fas fa-chart-line"></i> Business & Marketing</h2>
+                    <p>Accelerate your business growth with our comprehensive marketing and business development services. We combine strategic thinking with digital expertise to help you reach your target audience and achieve your business objectives.</p>
+                    
+                    <h3>What We Offer:</h3>
+                    <ul class="service-features">
+                        <li><strong>Digital Marketing Strategy:</strong> Comprehensive digital marketing plans tailored to your goals</li>
+                        <li><strong>SEO & SEM:</strong> Improve your online visibility and drive qualified traffic</li>
+                        <li><strong>Content Marketing:</strong> Create engaging content that resonates with your audience</li>
+                        <li><strong>Social Media Management:</strong> Build and manage your social media presence</li>
+                        <li><strong>Brand Development:</strong> Develop strong brand identity and positioning</li>
+                    </ul>
+
+                    <h3>Benefits:</h3>
+                    <ul class="service-benefits">
+                        <li>Increased brand awareness and market reach</li>
+                        <li>Higher quality leads and customer acquisition</li>
+                        <li>Improved customer engagement and loyalty</li>
+                        <li>Measurable ROI on marketing investments</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="animate-on-scroll">Ready to Transform Your Business?</h2>
+            <p class="animate-on-scroll delay-1">Let's discuss how our services can help you achieve your goals</p>
+            <a href="index.html#contact" class="btn btn-primary animate-on-scroll delay-2">Get in Touch</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <h2>HexaFusion Technologies</h2>
+                    <p>Copyright © 2025 All rights reserved</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="index.html#events">Events</a></li>
+                        <li><a href="index.html#testimonials">Testimonials</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="https://x.com/HexaFusion_Tech" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/hexafusion-tech/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/hexafusion.tech/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
