@@ -388,7 +388,7 @@ img {
 }
 
 .logo h1 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: var(--light-text);
   transition: var(--transition);
 }
