@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initContactForm()
   initDropdownMenu()
   categorizeEvents()
+  initLogoScroll();
 })
 
 function initDropdownMenu() {
@@ -541,3 +542,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+function initLogoScroll() {
+  const logo = document.getElementById("site-logo");
+  if (!logo) return;
+
+  logo.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
+}
+
