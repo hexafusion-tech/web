@@ -847,6 +847,7 @@ const loading = document.getElementById('loading');
 document.addEventListener('DOMContentLoaded', function() {
     console.log('DOM loaded, initializing app...');
     initializeApp();
+    initScrollToTop();
 });
 
 function initializeApp() {
@@ -1160,3 +1161,23 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
+function initScrollToTop() {
+  const scrollToTopBtn = document.querySelector(".scroll-to-top")
+  const scrollThreshold = 300
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > scrollThreshold) {
+      scrollToTopBtn.classList.add("show")
+    } else {
+      scrollToTopBtn.classList.remove("show")
+    }
+  })
+
+  scrollToTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    })
+  })
+}
